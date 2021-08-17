@@ -167,7 +167,7 @@ install_v2-ui() {
 
     tar zxvf v2-ui-linux-5.5.2.tar.gz
     rm v2-ui-linux-5.5.2.tar.gz -f
-    cd /usr/local/v2-ui-5.5.2
+    mv v2-ui-5.5.2 v2-ui
     chmod +x v2-ui bin/xray-v2-ui-linux-5.5.2
     cp -f v2-ui.service /etc/systemd/system/
     systemctl daemon-reload
