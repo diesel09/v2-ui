@@ -156,7 +156,7 @@ install_v2-ui() {
         fi
     else
         last_version=5.5.2
-        url="https://github.com/tszho.t/v2-ui/releases/download/5.5.2/v2-ui-linux-5.5.2.tar.gz"
+        url="https://github.com/tszho.t/v2-ui/archive/refs/tags/5.5.2.tar.gz"
         echo -e "开始安装 v2-ui v5.5.2"
         wget -N --no-check-certificate -O /usr/local/v2-ui-linux-5.5.2.tar.gz ${url}
         if [[ $? -ne 0 ]]; then
