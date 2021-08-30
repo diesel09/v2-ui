@@ -1,9 +1,10 @@
-因为作者已经把项目删库，所以我自行修改了下安装脚本，留着我自己未来一段时间使用，只保留了amd64，arm我就不管了
-再次注明只更改了安装脚本，没有更改作者v2-ui项目的任何功能，仅供我个人继续使用
+因为作者已经把项目删库，所以我自行修改了下安装脚本，留着我自己未来一段时间使用，amd64和arm64均可用，
+
+再次注明只更改了安装脚本，没有更改作者v2-ui项目的任何功能，仅供我个人继续使用。
 
 安装命令：
 
-bash <(curl -Ls https://raw.githubusercontent.com/tszho-t/v2-ui/master/install.sh)
+**bash <(curl -Ls https://raw.githubusercontent.com/tszho-t/v2-ui/master/v2-ui.sh)**
 
 
 
